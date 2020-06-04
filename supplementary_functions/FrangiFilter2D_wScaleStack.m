@@ -47,15 +47,15 @@ else
     end
 end
 
-sigmas=options.FrangiScaleRange(1):options.FrangiScaleRatio:options.FrangiScaleRange(2);
+sigmas = options.FrangiScaleRange(1):options.FrangiScaleRatio:options.FrangiScaleRange(2);
 sigmas = sort(sigmas, 'ascend');
 
 beta  = 2*options.FrangiBetaOne^2;
-c     = 2*options.FrangiBetaTwo^2;
+c = 2*options.FrangiBetaTwo^2;
 
 % Make matrices to store all filterd images
-ALLfiltered=zeros([size(I) length(sigmas)]);
-ALLangles=zeros([size(I) length(sigmas)]);
+ALLfiltered = zeros([size(I) length(sigmas)]);
+ALLangles = zeros([size(I) length(sigmas)]);
 
 % Frangi filter for all sigmas
 for i = 1:length(sigmas),
