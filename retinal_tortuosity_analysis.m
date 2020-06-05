@@ -40,7 +40,7 @@
 
 
 % ================================================ LICENSE =======================================================
-% This software has been released to promote research and education in the field of medical image analysis. 
+% This software has been released to promote research and education in medical image analysis. 
 % Feel free to use and/or redistribute for any non-commercial application.
 % THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
 % MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
