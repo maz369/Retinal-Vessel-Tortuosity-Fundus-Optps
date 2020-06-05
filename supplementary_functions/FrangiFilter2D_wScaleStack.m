@@ -39,7 +39,7 @@ if(~exist('options','var')),
     options=defaultoptions; 
 else
     tags = fieldnames(defaultoptions);
-    for i=1:length(tags)
+    for i = 1:length(tags)
          if(~isfield(options,tags{i})),  options.(tags{i})=defaultoptions.(tags{i}); end
     end
     if(length(tags)~=length(fieldnames(options))), 
