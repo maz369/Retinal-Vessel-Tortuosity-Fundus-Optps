@@ -14,7 +14,7 @@ Please see the user manual **Retinal Vessel Tortuosity.pdf** for further instruc
 
 
 # User manual
-Please see the pdf file with the name **Retinal Vessel Tortuosity** for detail description on how to use this tool. Detail explanation of parameter setting, and result interpretation is also provided in this manual.
+Please see attached pdf file with the name **Retinal Vessel Tortuosity** for detail description on how to use this tool. Detail explanation of parameter setting, and result interpretation is also provided in this manual.
 
 
 # Citation
