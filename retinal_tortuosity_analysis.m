@@ -20,7 +20,7 @@
 % image with centerlines overlaid.
 
 % To replot centerlines of an already analyzed image, use "re_plot_centerline.m" under "supplementary_functions" 
-% folder. Please check manual for additional explanation.
+% folder. Please check the pdf manual for additional explanation.
 
 
 % =========================================== PARAMETER EXPLANATION =============================================
