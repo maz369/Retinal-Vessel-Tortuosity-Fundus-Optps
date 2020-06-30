@@ -303,7 +303,6 @@ while strcmpi(user_happy,'y')
         if isequal(answer,'No')
             user_happy = 'n';
         end
-        
         clear centerline_xa centerline_ya
         
     catch exception
