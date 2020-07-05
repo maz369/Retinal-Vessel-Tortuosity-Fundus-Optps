@@ -81,5 +81,3 @@ end
 
 [indX,indY] = find(boundaryMap==1);
 boundaryList=[indX,indY];
-
-%error checking?
