@@ -167,10 +167,10 @@ if nargin<4, return, end
 % remove all points corresponding to relatively small weights (since a
 % (near-)zero weight in effect asks for the corresponding datum to be dis-
 % regarded while, at the same time, leading to bad condition and even
-% division by zero).
+% division by zero)
 origint = []; % this will be set to x([1 end]).' in case the weight for an end
              % data point is near zero, hence the approximation is computed
-             % without that endpoint.
+             % without that endpoint
 if nonemptyw
    ignorep = find( w <= (1e-13)*max(abs(w)) );
    if ~isempty(ignorep)
@@ -178,7 +178,7 @@ if nonemptyw
       x(ignorep) = []; y(ignorep,:) = []; w(ignorep) = []; 
       if roughnessw
                      % as a first approximation, simply ignore the
-                     % specified weight to the left of any ignored point.
+                     % specified weight to the left of any ignored point
          p(max(ignorep,2)) = [];
       end
       n = length(x);
