@@ -67,7 +67,6 @@
 
 % Release: 1.0, Date: 11/11/2019
 
-
 %% Setup for directories, images and the format of the image
 
 clearvars, close, clc, warning off;
