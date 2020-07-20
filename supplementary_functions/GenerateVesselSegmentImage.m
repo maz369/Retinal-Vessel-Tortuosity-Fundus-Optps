@@ -24,4 +24,3 @@ OutputImage = outIm>Threshold;
 OutputImage = bwareaopen(OutputImage,MinSize);
 
 end
-
