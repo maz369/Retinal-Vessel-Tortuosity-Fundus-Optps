@@ -1,7 +1,7 @@
 # Retinal-Vessel-Tortuosity-Analysis
 This script is for quantification of retinal vessel tortuosity in fundus or OPTOS images. Several measures of tortuosity is calculated and saved in an excel file.
 This measures include:
-* VTI: vessel tortuosity index. (VTI = 0.1*(len_arch * sd * num_critical_pts * (mean_dm)) / len_cord).
+* VTI: vessel tortuosity index. (VTI = 0.1 * (len_arch * sd * num_critical_pts * (mean_dm)) / len_cord).
 * curvature: mean absolute curvature.
 * DI: density index. Mean distance measure between inflection points, normalized by vessel length.
 * DM: distance measure. Ratio of vessel length to its chord length.
