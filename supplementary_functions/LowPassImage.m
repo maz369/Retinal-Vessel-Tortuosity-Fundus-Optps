@@ -1,7 +1,7 @@
 function OutputImage = LowPassImage(InputImage);
 
 % number of rows and columns in the image
-[rows cols] = size(InputImage);
+[rows cols] = size(InputImage); 
 
 % threshold
 f = 0.25;
