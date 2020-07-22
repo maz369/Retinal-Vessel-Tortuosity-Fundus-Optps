@@ -81,7 +81,7 @@ image_format = 'tif';
 
 %% Hessian based vessel segmentation
 
-UserDefined.Application = 'Optos';
+UserDefined.Application = 'Optos'; % Optos is just the name of example image that is included with the code. This has no effect on the analysis in the current version.
 Options.FrangiBetaOne = 0.5; % beta-1
 Options.FrangiBetaTwo = 15; % beta-2
 UserDefined.DiskDiameter = 5; % disk diameter
