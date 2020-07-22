@@ -224,5 +224,5 @@ arclen = sum(seglen);
     end
     val = sqrt(val);
     
-  end % function segkernel
+  end % function segkernel 
 end % function arclength
