@@ -1,6 +1,6 @@
 function OutputImage = LowPassImage(InputImage);
 
-# number of rows and columns in the image
+% number of rows and columns in the image
 [rows cols] = size(InputImage);
 
 % threshold
