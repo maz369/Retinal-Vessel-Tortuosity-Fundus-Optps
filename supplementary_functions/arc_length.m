@@ -226,6 +226,3 @@ arclen = sum(seglen);
     
   end % function segkernel
 end % function arclength
-
-
-
