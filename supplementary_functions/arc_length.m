@@ -148,7 +148,6 @@ if numel(varargin) > 0
       data = [data,arg(:)]; %#ok
     end
   end
-  
 end
 
 % what dimension do we live in?
