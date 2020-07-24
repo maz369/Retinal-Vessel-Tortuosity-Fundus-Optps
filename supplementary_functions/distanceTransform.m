@@ -1,6 +1,6 @@
 function fieldImage = distanceTransform(binaryImage,distanceMetric,seedList,isPlot)
 %% create a distancefield from a binary image.
-%inputs: -bindaryImage is the input binary image, where object=1 and
+% inputs: -bindaryImage is the input binary image, where object=1 and
 %        background=0.
 %        -distanceMetric is the distance metric for doing coding-based iterations.
 %        -seedList is a initial list of coordinate of the seeds.
