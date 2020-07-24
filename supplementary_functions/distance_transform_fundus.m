@@ -1,6 +1,6 @@
 function [skeletonSmoothedY,skeletonSmoothedX,xX,yY] = distance_transform_fundus(binaryImage,intImage,x1,y1,r)
 
-isPlot = 0;
+isPlot = 0; 
 binary_image_orig = binaryImage;
 user_happy = 'n';
 while strcmpi(user_happy,'n')
