@@ -1,6 +1,5 @@
 function [output,p] = csaps_pt(x,y,p,xx,w)
 
-
 if nargin<3||isempty(p), p = -1; end
 if nargin<4, xx = []; end
 if nargin<5, w = []; end
@@ -38,7 +37,7 @@ else % set up the linear system for solving for the 2nd derivatives at  xi .
 
    R = spdiags([dxol(2:n-1), 2*(dxol(2:n-1)+dxol(1:n-2)), dxol(1:n-2)],...
                                          -1:1, n-2,n-2);
-   odx=1./dx;
+   odx = 1./dx;
    Qt = spdiags([odx(1:n-2), -(odx(2:n-1)+odx(1:n-2)), odx(2:n-1)], ...
                                                 0:2, n-2,n);
    % solve for the 2nd derivatives
@@ -47,11 +46,11 @@ else % set up the linear system for solving for the 2nd derivatives at  xi .
    if p<0 % we are to determine an appropriate P
       QtWQ = Qtw*Qtw.'; p = 1/(1+trace(R)/(6*trace(QtWQ)));
           % note that the resulting  p  behaves like
-          %   1/(1 + w_unit*x_unit^3/lambda_unit)
+          %  1/(1 + w_unit*x_unit^3/lambda_unit)
           % as a function of the various units chosen
-      u=((6*(1-p))*QtWQ+p*R)\diff(divdif);
+      u = ((6*(1-p))*QtWQ+p*R)\diff(divdif);
    else
-      u=((6*(1-p))*(Qtw*Qtw.')+p*R)\diff(divdif);
+      u = ((6*(1-p))*(Qtw*Qtw.')+p*R)\diff(divdif);
    end
    % ... and convert to pp form
    % Qt.'*u=diff([0;diff([0;u;0])./dx;0])
