@@ -1,6 +1,6 @@
 function skeleton=extactSkeleton(ssField,bsField,startPt,endPt,isPlot)
 
-if nargin<5
+if nargin < 5
     isPlot = 1;
 end
 
@@ -9,9 +9,9 @@ bsFieldTmp = bsField;
 ssFieldTmp = ssField;
 
 %extract skeleton from startPt to endPt from ssField and bsField
-startPtVal=ssField(startPt(1),startPt(2));
-[imageSizeX,imageSizeY]=size(ssField);
-skeleton=endPt;
+startPtVal = ssField(startPt(1),startPt(2));
+[imageSizeX,imageSizeY] = size(ssField);
+skeleton = endPt;
 currentPt = endPt;
 currentVal = ssField(currentPt(1),currentPt(2));
 
@@ -26,8 +26,8 @@ while currentVal ~= startPtVal &&...
         currentPt(2)+radius <= imageSizeY,
 
     %extract neighboring field of the current point.
-    neighborSsRegion=ssField(currentPt(1)-radius:currentPt(1)+radius,currentPt(2)-radius:currentPt(2)+radius);
-    neighborBsRegion=bsField(currentPt(1)-radius:currentPt(1)+radius,currentPt(2)-radius:currentPt(2)+radius);
+    neighborSsRegion = ssField(currentPt(1)-radius:currentPt(1)+radius,currentPt(2)-radius:currentPt(2)+radius);
+    neighborBsRegion = bsField(currentPt(1)-radius:currentPt(1)+radius,currentPt(2)-radius:currentPt(2)+radius);
     
     %find points with lower Ss value than the current field.
     neighborInd = ( neighborSsRegion == currentVal-1 );
@@ -67,5 +67,4 @@ while currentVal ~= startPtVal &&...
     title('single-seed seeded field');
     drawnow;
     end
-    
 end
