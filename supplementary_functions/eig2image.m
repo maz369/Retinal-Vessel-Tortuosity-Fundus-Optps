@@ -6,7 +6,6 @@ function [Lambda1,Lambda2,Ix,Iy]=eig2image(Dxx,Dxy,Dyy)
 % [Lambda1,Lambda2,Ix,Iy]=eig2image(Dxx,Dxy,Dyy)
 %
 
-%
 % | Dxx  Dxy |
 % |          |
 % | Dxy  Dyy |
@@ -30,10 +29,14 @@ mu1 = 0.5*(Dxx + Dyy + tmp);
 mu2 = 0.5*(Dxx + Dyy - tmp);
 
 % Sort eigen values by absolute value abs(Lambda1)<abs(Lambda2)
-check=abs(mu1)>abs(mu2);
+check = abs(mu1) > abs(mu2);
 
-Lambda1=mu1; Lambda1(check)=mu2(check);
-Lambda2=mu2; Lambda2(check)=mu1(check);
+Lambda1 = mu1;
+Lambda1(check) = mu2(check);
+Lambda2 = mu2; 
+Lambda2(check) = mu1(check);
 
-Ix=v1x; Ix(check)=v2x(check);
-Iy=v1y; Iy(check)=v2y(check);
+Ix = v1x;
+Ix(check) = v2x(check);
+Iy = v1y;
+Iy(check) = v2y(check);
