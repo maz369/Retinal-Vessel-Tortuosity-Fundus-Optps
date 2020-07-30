@@ -4,7 +4,7 @@
 % within a circumpapillary region centered on the optic nerve head (ONH). The user needs to select the center
 % of ONH and its diameter. Also, the user can modify thresholds for vessel segmentation. Additionally, 
 % the user needs to select endpoints of each vessel for extracting the centerline and calculating its 
-% tortuosity. Please see the user manual (Retinal Vessel Tortuosity.pdf) for further instruction.
+% tortuosity. Please see the user manual (Retinal Vessel Tortuosity.pdf) for further instruction. 
 
 
 % ================================================== EXAMPLE ====================================================
