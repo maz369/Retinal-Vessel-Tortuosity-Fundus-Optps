@@ -39,4 +39,4 @@ Lambda2(check) = mu1(check);
 Ix = v1x;
 Ix(check) = v2x(check);
 Iy = v1y;
-Iy(check) = v2y(check);
+Iy(check) = v2y(check); 
