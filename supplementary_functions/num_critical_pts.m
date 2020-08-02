@@ -2,7 +2,7 @@
 % A critical point is a point on the curve where the derivative vanishes (either zero or doesn't exist).
 % In such a point, there is a change in sign of the slope of tangent lines.
 
-% Please cite the following paper if you use this code :)
+% Please cite the following paper if you use this code
 % Khansari, et al. "Method for quantitative assessment of retinal vessel tortuosity in % optical coherence 
 % tomography angiography applied to sickle cell retinopathy." Biomedical optics express 8.8 (2017):3796-3806.
 
