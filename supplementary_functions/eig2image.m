@@ -3,7 +3,7 @@ function [Lambda1,Lambda2,Ix,Iy]=eig2image(Dxx,Dxy,Dyy)
 % hessian matrix, sorted by abs value. And gives the direction
 % of the ridge (eigenvector smallest eigenvalue) .
 % 
-% [Lambda1,Lambda2,Ix,Iy]=eig2image(Dxx,Dxy,Dyy)
+% [Lambda1,Lambda2,Ix,Iy]=eig2image(Dxx,Dxy,Dyy) 
 %
 
 % | Dxx  Dxy |
