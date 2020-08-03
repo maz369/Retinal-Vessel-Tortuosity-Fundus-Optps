@@ -1,7 +1,7 @@
 % Compute standard deviation (SD) of angles between lines tangent to each pixel on the
 % centerline and a reference-axis (i.e. x-axis) for a curve defined by x & y coordinates.
 
-% Please cite the following paper if you use this code :)
+% Please cite the following paper if you use this code.
 % Khansari, et al. "Method for quantitative assessment of retinal vessel tortuosity in % optical coherence 
 % tomography angiography applied to sickle cell retinopathy." Biomedical optics express 8.8 (2017):3796-3806.
 
