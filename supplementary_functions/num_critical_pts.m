@@ -8,7 +8,7 @@
 
 % Written by Maz M. Khansari (summer 2017)
 % maziyar.khansari@gmail.com
-
+ 
 %%
 function N = num_critical_pts(x,y,isshow)
 % initialize
