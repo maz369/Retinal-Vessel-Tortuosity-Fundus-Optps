@@ -1,11 +1,10 @@
 function xlsPasteTo(filename,sheetname,width, height,varargin)
 
 % Paste current figure to selected Excel sheet and cell
-%
 
 % xlsPasteTo(filename,sheetname,width, height,range)
-%Example:
-%xlsPasteTo('File.xls','Sheet1',200, 200,'A1')
+% Example:
+% xlsPasteTo('File.xls','Sheet1',200, 200,'A1')
 % this will paset into A1 at Sheet1 at File.xls the current figure with
 % width and height of 200
 %
@@ -39,4 +38,3 @@ invoke(Excel.Selection,'PasteSpecial');
 invoke(Workbook, 'Save');
 invoke(Excel, 'Quit');
 delete(Excel);
-
