@@ -12,3 +12,4 @@ sigma     = round(0.25*min([FiltSizeX FiltSizeY]));
 GausFilt    = fspecial('gaussian',[FiltSizeY FiltSizeX],sigma);
 %AvgFilt     = fspecial('average',[FiltSizeY FiltSizeX]);
 OutputImage = filter2(GausFilt,InputImage,'same');
+ 
