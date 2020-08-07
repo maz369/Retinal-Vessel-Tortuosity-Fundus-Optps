@@ -15,7 +15,7 @@ skeleton = endPt;
 currentPt = endPt;
 currentVal = ssField(currentPt(1),currentPt(2));
 
-radius=6;
+radius = 6;
 diameter=radius*2+1;
 
 %while value not at the very starting point and not at image boundary
