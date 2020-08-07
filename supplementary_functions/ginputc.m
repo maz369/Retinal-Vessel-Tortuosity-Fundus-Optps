@@ -1,7 +1,7 @@
 function [x, y, button, ax] = ginputc(varargin)
 % GINPUTC Graphical input from mouse.
 %   GINPUTC behaves similarly to GINPUT, except you can customize the
-%   cursor color, line width, and line style. 
+%   cursor color, line width, and line style.  
 %
 %   [X,Y] = GINPUTC(N) gets N points from the current axes and returns
 %   the X- and Y-coordinates in length N vectors X and Y.  The cursor
