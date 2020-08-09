@@ -6,7 +6,7 @@ function [Dxx,Dxy,Dyy] = Hessian2D(I,Sigma)
 % 
 % inputs,
 %   I : The image, class preferable double or single
-%   Sigma : The sigma of the gaussian kernel used
+%   Sigma : The sigma of the gaussian kernel used 
 %
 % outputs,
 %   Dxx, Dxy, Dyy: The 2nd derivatives
