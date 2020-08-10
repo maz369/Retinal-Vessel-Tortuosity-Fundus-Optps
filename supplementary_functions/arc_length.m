@@ -2,7 +2,7 @@ function [arclen,seglen] = arc_length(px,py,varargin)
 
 % arclength: compute arc length of a space curve, or any curve represented as a sequence of points
 % usage: [arclen,seglen] = arclength(px,py)         % a 2-d curve
-% usage: [arclen,seglen] = arclength(px,py,pz)      % a 3-d space curve
+% usage: [arclen,seglen] = arclength(px,py,pz)      % a 3-d space curve 
 % usage: [arclen,seglen] = arclength(px,py,method)  % specifies the method used
 %
 % Computes the arc length of a function or any
