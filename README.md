@@ -5,7 +5,7 @@ This measures include:
 * VTI: vessel tortuosity index. (VTI = 0.1 * (len_arch * sd * num_critical_pts * (mean_dm)) / len_cord). 
 * curvature: mean absolute curvature.
 * DI: density index. Mean distance measure between inflection points, normalized by vessel length.    
-* DM: distance measure. Ratio of vessel length to its chord length.
+* DM: distance measure. Ratio of vessel length to its chord length. 
 
 Tortuosity measures are based on vessel centerline within a circumpapillary region centered on the optic nerve head (ONH). The user needs to select the center of ONH and its diameter. Also, the user can modify thresholds for vessel segmentation. Additionally, the user needs to select endpoints of each vessel for extracting the centerline and calculating its tortuosity.
 Please see the user manual **Retinal Vessel Tortuosity.pdf** for further instruction on how to use the code. Also note V2.0.0 includes variables for adjusting the region of interest (see version note for clarification). 
